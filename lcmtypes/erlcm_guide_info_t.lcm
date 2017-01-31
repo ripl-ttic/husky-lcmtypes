@@ -1,0 +1,13 @@
+package erlcm;
+
+struct guide_info_t
+{
+	int64_t utime;
+    	int32_t tracking_state; 
+	//0 - lost 1 - tracking 
+	double pos[2];
+	double closing_velocity;	//how fast we are closing in on the person 
+	double vel_mag;	//trans velocity in the person's frame of reference
+	double rot_vel_mag; //rot velocity in the person's frame of reference 
+	double person_heading; //person orientation - based off of the direction of motion
+}

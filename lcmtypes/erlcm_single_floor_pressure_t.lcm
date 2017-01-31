@@ -1,0 +1,9 @@
+package erlcm;
+
+struct single_floor_pressure_t
+{
+    int32_t floor_no;
+    int32_t count;
+    double mean;
+    double sdev;	
+}

@@ -1,0 +1,10 @@
+package erlcm;
+
+struct floor_rect_list_t
+{
+    int8_t floor_ind;
+    int8_t floor_no;  
+
+    rect_list_t rect_list; 
+}
+

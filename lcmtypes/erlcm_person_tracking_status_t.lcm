@@ -1,0 +1,18 @@
+package erlcm;
+
+struct person_tracking_status_t
+{
+        int64_t utime;
+        int16_t status; 
+        int16_t sender;
+        
+        const int16_t STATUS_IDLE = 0;      
+        const int16_t STATUS_TRACKING = 1;
+        const int16_t STATUS_LOOKING = 2;
+        const int16_t STATUS_LOST = 3;      
+        
+
+        const int16_t SENDER_KINECT = 1;
+        const int16_t SENDER_LASER = 2;     
+        const int16_t SENDER_DM  = 3; //dialog manager
+}

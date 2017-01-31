@@ -1,0 +1,9 @@
+package erlcm;
+
+struct velocity_msg_t
+{
+    int64_t utime;
+    double tv;
+    double rv;	
+    //not sure if we need to add host
+}

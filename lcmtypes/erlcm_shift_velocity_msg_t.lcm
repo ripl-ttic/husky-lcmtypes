@@ -1,0 +1,11 @@
+package erlcm;
+
+struct shift_velocity_msg_t
+{
+    int64_t utime;
+    int8_t shift; 			// 0 for shift down, 
+				// 1 for shift up
+    const int8_t SHIFT_DOWN = 0;
+    const int8_t SHIFT_UP = 1;    
+
+}

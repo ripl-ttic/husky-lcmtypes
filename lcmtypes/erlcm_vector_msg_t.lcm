@@ -1,0 +1,9 @@
+package erlcm;
+
+struct vector_msg_t
+{
+    int64_t utime;
+    double distance;
+    double theta;	
+    //not sure if we need to add host
+}
