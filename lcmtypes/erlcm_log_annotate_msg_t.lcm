@@ -1,0 +1,8 @@
+package erlcm;
+
+struct log_annotate_msg_t {
+    int64_t  utime;
+    int32_t enumerate; //mark with an int for ease of use in matlab etc
+    string annotation; //mark with a string for human comments
+    
+}
