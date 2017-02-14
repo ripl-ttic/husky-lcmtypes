@@ -22,6 +22,9 @@ struct robot_status_t
     const int64_t FAULT_ACTUATION              = 0x0000000000000002;
     const int64_t FAULT_SENSORS                = 0x0000000000000004;
     const int64_t FAULT_TIMEOUT                = 0x0000000000000008;
+    const int64_t FAULT_ESTOP                  = 0x0000000000000010;    
+    const int64_t FAULT_LOCKOUT                = 0x0000000000000020;    
+    const int64_t FAULT_BATTERY                = 0x0000000000000040;    
 
     // Low level software faults:                  0123456789012345
     const int64_t FAULT_HEARTBEAT              = 0x0000000000010000;
