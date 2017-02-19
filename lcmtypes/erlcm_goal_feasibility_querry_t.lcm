@@ -1,0 +1,11 @@
+package erlcm;
+
+struct goal_feasibility_querry_t
+{        
+	int64_t utime;
+        portal_list_t portal_list;
+	point_t goal;
+        int32_t goal_floor_no; //floor no  
+        double cost_to_goal;      
+        //this should return a cost/feasibility array from each point to each other point  
+}
