@@ -1,0 +1,9 @@
+package erlcm;
+
+struct kinect_range_msg_t
+{
+    int64_t utime; //not sure if this will be the same as the sensor time	
+    int32_t no_readings;
+    double thetas[no_readings];
+    double ranges[no_readings];
+}
