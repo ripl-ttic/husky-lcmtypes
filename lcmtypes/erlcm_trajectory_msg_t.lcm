@@ -1,9 +1,0 @@
-package erlcm;
-
-struct trajectory_msg_t
-{
-      int64_t utime;
-      int32_t trajectory_length;
-      traj_point_t trajectory[trajectory_length];
-      traj_point_t robot_position;
-}
