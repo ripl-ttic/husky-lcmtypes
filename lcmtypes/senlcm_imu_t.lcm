@@ -1,4 +1,4 @@
-package erlcm;
+package senlcm;
 
 struct imu_t
 {
@@ -13,7 +13,4 @@ struct imu_t
     double quat_cov[9];
     double accel_cov[9];
 
-    //uint32 seq;
-    //string frame_id;
 }
-
