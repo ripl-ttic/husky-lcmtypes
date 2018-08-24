@@ -1,0 +1,9 @@
+package erlcm;
+
+struct position_t
+{
+	double  x;
+	double  y;
+	double  z;
+
+}
