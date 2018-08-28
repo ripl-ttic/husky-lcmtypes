@@ -1,0 +1,8 @@
+package erlcm;
+
+struct portal_list_t
+{        
+	int64_t utime;
+        int32_t no_of_portals; 
+	portal_node_t portals[no_of_portals];
+}
