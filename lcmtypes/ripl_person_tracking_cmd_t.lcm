@@ -1,4 +1,4 @@
-package erlcm;
+package ripl;
 
 struct person_tracking_cmd_t
 {

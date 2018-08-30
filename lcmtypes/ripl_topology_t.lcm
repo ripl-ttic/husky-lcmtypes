@@ -1,4 +1,4 @@
-package erlcm;
+package ripl;
 
 struct topology_t
 {

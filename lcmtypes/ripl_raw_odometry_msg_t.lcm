@@ -1,4 +1,4 @@
-package erlcm;
+package ripl;
 
 struct raw_odometry_msg_t {
        int64_t  utime;

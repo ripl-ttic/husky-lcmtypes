@@ -1,4 +1,4 @@
-package erlcm;
+package ripl;
 
 struct gridmap_tile_t
 {

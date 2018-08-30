@@ -1,4 +1,4 @@
-package erlcm;
+package ripl;
 
 // Instructs the localization particle filter to re-initialize the
 // particles to a normal distribution.

@@ -1,4 +1,4 @@
-package erlcm;
+package ripl;
 
 struct map_request_msg_t
 {

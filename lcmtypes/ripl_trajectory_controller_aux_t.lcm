@@ -1,4 +1,4 @@
-package erlcm;
+package ripl;
 
 struct trajectory_controller_aux_t {
     int64_t utime;

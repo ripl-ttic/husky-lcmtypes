@@ -1,4 +1,4 @@
-package erlcm;
+package ripl;
 
 struct log_annotate_msg_t {
     int64_t  utime;

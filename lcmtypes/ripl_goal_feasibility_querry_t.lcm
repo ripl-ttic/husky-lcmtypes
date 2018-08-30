@@ -1,4 +1,4 @@
-package erlcm;
+package ripl;
 
 struct goal_feasibility_querry_t
 {        

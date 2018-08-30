@@ -1,4 +1,4 @@
-package erlcm;
+package ripl;
 
 struct traj_point_t
 {     double x;

@@ -1,4 +1,4 @@
-package erlcm;
+package ripl;
 
 struct floor_status_msg_t
 {

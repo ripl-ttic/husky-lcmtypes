@@ -1,4 +1,4 @@
-package erlcm;
+package ripl;
 
 struct elevator_list_t
 {

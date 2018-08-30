@@ -1,4 +1,4 @@
-package erlcm;
+package ripl;
 
 //this message contains the position of the vehicle at a given time as computed by the SLAM algorithm... 
 //it is likely significantly delayed, but represents our best estimate of the vehicle position at that time

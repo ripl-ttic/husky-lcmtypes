@@ -1,4 +1,4 @@
-package erlcm;
+package ripl;
 
 struct navigator_status_t
 {

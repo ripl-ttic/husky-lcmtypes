@@ -1,6 +1,6 @@
 // Status message for the trajectory controller
 
-package erlcm;
+package ripl;
 
 struct trajectory_controller_status_t
 {

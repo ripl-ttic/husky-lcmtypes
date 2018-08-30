@@ -1,4 +1,4 @@
-package erlcm;
+package ripl;
 
 struct people_pos_msg_t
 {

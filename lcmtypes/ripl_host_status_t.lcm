@@ -1,7 +1,7 @@
 // Each machine should be running a script that sends these messages.
 // Adapted from arlcm_battery_status_t
 
-package erlcm;
+package ripl;
 
 struct host_status_t
 {
