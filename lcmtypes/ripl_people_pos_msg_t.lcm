@@ -1,0 +1,10 @@
+package ripl;
+
+struct people_pos_msg_t
+{
+	int64_t utime;
+	int32_t num_people;
+	int32_t followed_person;
+	person_status_t people_pos[num_people]; 	
+	//point_t people_pos[num_people];
+}

@@ -1,9 +1,0 @@
-package erlcm;
-
-struct goal_heading_msg_t
-{
-    int64_t utime;
-    int32_t tracking_state; 
-    //-1 - lost; 0 - tracking and follow; 1 - tracking_too_close_dont_follow
-    double target_heading;
-}

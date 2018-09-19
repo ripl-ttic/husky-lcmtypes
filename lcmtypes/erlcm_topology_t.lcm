@@ -1,9 +1,0 @@
-package erlcm;
-
-struct topology_t
-{
-        int64_t utime;
-        //all the portals in the environment 
-        portal_list_t portal_list;
-        place_list_t place_list; 
-}

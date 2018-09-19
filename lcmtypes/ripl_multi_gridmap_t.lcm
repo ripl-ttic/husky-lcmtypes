@@ -1,0 +1,8 @@
+package ripl;
+
+struct multi_gridmap_t
+{
+	int32_t no_floors;
+	int32_t current_floor_ind; //the index of the map 
+	floor_gridmap_t maps[no_floors];
+}

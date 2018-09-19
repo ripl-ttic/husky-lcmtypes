@@ -1,7 +1,0 @@
-package erlcm;
-
-struct floor_change_msg_t
-{
-    int64_t  utime;
-    int32_t  floor_no;
-}

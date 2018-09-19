@@ -1,0 +1,26 @@
+// Each machine should be running a script that sends these messages.
+// Adapted from arlcm_battery_status_t
+
+package ripl;
+
+struct host_status_t
+{
+    int64_t utime;
+
+    string id;     // Unique for each computer.
+
+    // Battery status info
+    // Charge percentage for each battery.
+    int32_t nbatteries;
+    float battery_charge[nbatteries];  // 0 == fully discharged, 1 == fully charged
+
+    float temp_C;       // Temperature in Celsius.
+    boolean plugged_in; // true when plugged in.
+
+    // CPU info
+    int8_t num_processors;
+    int64_t min_cpu_freq_hz[num_processors];
+    int64_t max_cpu_freq_hz[num_processors];
+    int64_t cur_cpu_freq_hz[num_processors];
+    
+}

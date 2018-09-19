@@ -1,0 +1,20 @@
+package ripl;
+
+struct person_tracking_cmd_t
+{
+        int64_t utime;
+        int16_t command; 
+        int16_t sender;
+        //
+        const int16_t CMD_START_TRACKING = 1; 
+        const int16_t CMD_PERSON_IN_FRONT = 2;
+        const int16_t CMD_PERSON_RETRACK = 3;
+        const int16_t CMD_SEND_STATUS = 4;
+        const int16_t CMD_STOP_TRACKING = 5;
+
+        const int16_t SENDER_KINECT = 1;
+        const int16_t SENDER_LASER = 2;     
+        const int16_t SENDER_DM  = 3; //dialog manager      
+        const int16_t PERSON_MODERATOR  = 4; //dialog manager           
+        const int16_t SENDER_JS  = 5; //sent from joystick           
+}

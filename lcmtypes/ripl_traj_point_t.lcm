@@ -1,0 +1,9 @@
+package ripl;
+
+struct traj_point_t
+{     double x;
+      double y;
+      double theta;
+      double t_vel;
+      double r_vel;
+}

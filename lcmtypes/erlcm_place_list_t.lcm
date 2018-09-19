@@ -1,7 +1,0 @@
-package erlcm;
-
-struct place_list_t
-{
-      int32_t place_count;
-      place_node_t trajectory[place_count];
-}

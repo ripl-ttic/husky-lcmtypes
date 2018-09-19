@@ -1,0 +1,23 @@
+// Status message for the trajectory controller
+
+package ripl;
+
+struct trajectory_controller_status_t
+{
+    int64_t utime;
+
+    double trans_vel; // Requested translational velocity
+    double rot_vel;   // Requested rotational velocity
+
+    int32_t num_cur_ref_points;
+
+    // Current status
+    int32_t state;
+    const int32_t STATE_IDLE = 0x00000;
+
+    // Error modes
+    int32_t error_mode;
+    const int32_t ERROR_NONE = 0x00000;
+    const int32_t ERROR_NO_POSE = 0x00001;
+    const int32_t ERROR_TARGET_BEHIND = 0x00002;
+}

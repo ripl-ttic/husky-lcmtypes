@@ -1,8 +1,0 @@
-package erlcm;
-
-struct speech_cmd_t
-{
-    int64_t  utime;
-    string   cmd_type;
-    string   cmd_property;
-}
