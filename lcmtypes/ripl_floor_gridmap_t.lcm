@@ -1,7 +1,0 @@
-package ripl;
-
-struct floor_gridmap_t
-{
-	gridmap_t gridmap;	
-	int32_t floor_no; //this is the actual floor no
-}

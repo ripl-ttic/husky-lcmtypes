@@ -1,7 +1,0 @@
-package ripl;
-
-struct region_change_t
-{
-    int64_t  utime;
-    int32_t  region_no;
-}

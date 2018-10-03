@@ -1,7 +1,0 @@
-package ripl;
-
-struct tagged_node_list_t
-{
-      int32_t place_count;
-      tagged_node_t places[place_count];
-}
