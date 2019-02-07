@@ -1,0 +1,7 @@
+package ripl;
+
+struct lcm_ros_info
+{
+    int64_t utime_lcm;
+    int64_t utime_ros;
+}
