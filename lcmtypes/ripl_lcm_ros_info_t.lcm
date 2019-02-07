@@ -1,6 +1,6 @@
 package ripl;
 
-struct lcm_ros_info
+struct lcm_ros_info_t
 {
     int64_t utime_lcm;
     int64_t utime_ros;
